@@ -6,7 +6,7 @@
     <title>Form Pendaftaran</title>
 </head>
 <body>
-    <?php
+    
   <h2>Form Registrasi SMKN 1 Banyuwangi</h2>
   <form action="">
     <fieldset>
@@ -151,15 +151,37 @@
        <p>No. Handphone : <input type="tel" place holder="No. Handphone"></p>
     </fieldset>
    <p>Pilih Jurusan : <select name="" id="">
-           <option value="">islam</option>
-           <option value="">Kristen</option>
-           <option value="">Katolik</option>
-           <option value="">Hindu</option>
-           <option value="">Budha</option>
-           <option value="">Konghucu</option>
+           <option value="">PPLG</option>
+           <option value="">TJKT</option>
+           <option value="">DKV</option>
+           <option value="">Seni Pertunjukan</option>
+           <option value="">AKL</option>
+           <option value="">MPLB</option>
+           <option value="">Perhotelan</option>
+           <option value="">Pemasaran</option>
+           <option value="">BDP</option>
+           <option value="">Kuliner</option>
        </select></p>
+<p>pilih ekstrakurikuler (optional) : <select name="" id="">
+           <option value="">OSIS</option>
+           <option value="">Dewan Ambalan</option>
+           <option value="">Pecinta Alam</option>
+           <option value="">Remaja Masjid</option>
+           <option value="">Laskar Hijau</option>
+           <option value="">PMR</option>
+           <option value="">Futsal</option>
+           <option value="">Basket</option>
+           <option value="">Voli</option>
+           <option value="">Tari</option>
+           <option value="">Teater Kusuma</option>
+           <option value="">Basket</option>
+           <option value="">Esemkasa Breaking News</option>
+           <option value="">English Club</option>
+       </select></p>
+  <p><input type="checkbox">Saya menyatakan dengan sesungguhnya bahwa isian data di dalam formulir ini adalah benar apabila ternyata data tersebut tidak benar/palsu maka saya bersedia menerima sanksi berupa pembatalan sebagai calon peserta didik.</p>
+  
    </form>
    
-    ?>
+    
 </body>
 </html>
