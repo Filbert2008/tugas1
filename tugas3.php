@@ -9,7 +9,7 @@
 <body>
 
     <form action="output.php" method="POST">
-        <legend><h2>Form Penghitungan Gaji Bersih</h2></legend>
+        <legend><h2>Form Penghitung Gaji <span>CV.TeknoNusa</span> </h2></legend>
         <fieldset>
             <label>Nama Karyawan:</label>
             <input type="text" name="nama" required>
