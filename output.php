@@ -50,7 +50,7 @@
     if (isset($_POST['hitung'])) {
         $nama = $_POST['nama'];
         $divisi = $_POST['divisi'];
-        $gaji_perbulan = $_POST['gaji_perbulan'];
+        $gaji_perbulan = floatval($_POST=['gaji_perbulan']);
         $npwp = $_POST['npwp'];
 
         $gaji_tahunan = $gaji_perbulan * 12;
@@ -94,6 +94,10 @@
         <tr>
             <td>Gaji Bersih Per Bulan</td>
             <td><b>Rp <?= number_format($gaji_bersih_perbulan, 0, ',', '.'); ?></b></td>
+        </tr>
+        <tr>
+            <td>Gaji Per Bulan</td>
+            <td><b>Rp <?= number_format($gaji_perbulan, 0, ',', '.'); ?></b></td>
         </tr>
     </table>
 
